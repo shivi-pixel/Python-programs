@@ -1,0 +1,12 @@
+import pandas as pd
+x = pd.DataFrame()
+print("The dataframe without passing any data is as follows:")
+print(x)
+print("\n")
+l = ['import', 'pandas', 'library']
+print("The given list is ")
+print(l)
+print("\n")
+x = pd.DataFrame(l)
+print("The dataframe after passing the data is as follows:")
+print(x)
