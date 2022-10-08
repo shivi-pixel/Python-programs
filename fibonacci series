@@ -1,0 +1,14 @@
+def fibonacci(num):
+  if num < 0:
+    print('Please enter non-negative integer')
+  # For first two numbers
+  if num == 0:
+    return 0
+  if num == 1:
+    return 1
+  return fibonacci(num - 1) + fibonacci(num - 2)
+ 
+# running function after taking user input
+num = int(input('Enter how many numbers needed in Fibonacci series- '))
+for i in range(num):
+  print(fibonacci(i), end=' ')
